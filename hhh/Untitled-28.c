@@ -1,12 +1,12 @@
 #include <stdio.h>
 //输入密码并确认
-int mian()
+int main()
 {
     int ret=0;
     int ch=0;
     char password[20]={0};
     printf("请输入密码:>");
-    scanf("%s",password);
+    scanf("%s",&password);
     while((ch=getchar())!='\n')
     {
         ;
@@ -14,6 +14,7 @@ int mian()
     printf("请确认(Y/N):>");
     ret=getchar();
     if (ret=='Y')
+
     {
         printf("确认成功\n");
     }
