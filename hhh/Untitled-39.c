@@ -7,9 +7,11 @@ int main()
     for(i=1;i<=100;i++)
     {
         if(i%3==0)
-            printf("%d ",i);
-            count++;
+            {   
+                count++;
+                printf("%d ",i);
+            }
     }
-    printf("%d",count);
+    printf("\n count=%d",count);
     return 0;
 }
