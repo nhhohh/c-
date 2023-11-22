@@ -1,4 +1,5 @@
 #include <stdio.h>
+//将数组A中的内容和数组中B中的内容进行交换（数组一样大）
 int main()
 {
     int arr1[]={1,3,5,7,9};
