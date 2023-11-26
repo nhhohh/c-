@@ -1,6 +1,6 @@
 #include <stdio.h>
 //写一个代码，打印100-200之间的素数
-//算法实现：i=a*b,a和b中至少有一个数字<=开平方i
+//算法实现：i=a*b,a和b中至少有一个数字<=开方i
 #include <math.h>
 int main()
 {
